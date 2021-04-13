@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+h1 {
+    font-family: 'Grand Hotel', cursive;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #281414;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown {
+    position: absolute;
+    z-index: 99999;
+    list-style-type: none;
+    width: 360px;
+    border: rgb(15, 22, 33);
+    list-style: none;
+    top: 143px;
+}
+#mapContainer input{
+    z-index: 9999; font-size: 18px;
+    font-family: 'Allerta', Helvetica, Arial, sans-serif;
+    color: #495057;position: absolute; top: 100px; left: 20px;
+    width: 350px; height: 35px; padding: 5px; margin-left: 17px;
+    margin-top: 7px; border: none;
+}
+.dropdown ul{
+    list-style: none;
+    background-color: white;
+    padding: 0px;
+    margin-left: 29px;
+    width: 360px;
+}
+.dropdown li{
+    list-style-type: none;
+    height: 35px;
+    padding: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-family: 'Allerta', Helvetica, Arial, sans-serif;
+    color: #495057;
+}
+.dropdown li:hover {
+    background-color: yellowgreen;
+}
+#list {
+    cursor: pointer;
+}
+.fa-search-custom {
+    position: absolute;
+    left: 365px;
+    top: 120px;
+    z-index: 99999;
+}
+
+.card {
+    background-color: #ffffff;
+    border-right: solid #ffffff 1px;
+    border-bottom: solid #ffffff 1px;
+    right: 30px;
+    width: 374px;
+    max-height: calc(100% - 100px);
+    display: block;
+    font-size: 13px;
+    right: 10px;
+    padding: 10px;
+    position: absolute;
+    text-align: justify;
+    top: 10px;
+    z-index: 10;
+    -webkit-transition: left 0.5s, -webkit-transform 2s;
+    transition: left 0.5s, transform 2s;
+    clear: both;
+    overflow: auto;
+    height: 60%;
+}
+
+.stars-outer {
+    position: relative;
+    display: inline-block;
+}
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+.stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    color: #ccc;
+}
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    color: #f8ce0b;
+}
+
+.form-select {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
