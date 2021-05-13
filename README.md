@@ -1,4 +1,4 @@
-# restaurant-review-site - OpenClassrooms
+# Restaurant review site - OpenClassrooms
 ### Step 1: Restaurants
 * A Google Maps map loaded with the Google Maps API
 * A list of restaurants on the right side of the page that are within the area displayed on the map
